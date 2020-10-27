@@ -1,0 +1,33 @@
+.padding-container{
+  padding: 0 8%;
+  padding-top: 3%;
+}
+
+.font-family{
+  font-family: Noto Serif KR;
+}
+
+.navbar {
+  background-color: #fadba22d;
+  
+  }
+  
+  /*.navbar-container {
+    font-size: 1.2rem;
+   
+  }
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 50px;
+    list-style: none;
+    justify-content: end;
+    padding: 0px 0px;
+    
+  }
+
+  .nav-item{
+    margin: 0px 40px;
+  }*/
+  
