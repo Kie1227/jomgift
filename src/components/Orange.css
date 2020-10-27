@@ -1,7 +1,7 @@
 .orange-container{
 background-image: url(./orangeBackground.png);
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
 
 }
 

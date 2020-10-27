@@ -16,10 +16,10 @@ function Download() {
                     
                         
                             <a href="#"><Image src="appstore.png" alt="appstore-button"
-                            sx={{ width: ["130px", "180px", "240px"], height: ["45px", "60px", "75px"], marginRight:"3%"}}></Image></a>
+                            sx={{ width: ["120px", "180px", "240px"], height: ["40px", "60px", "75px"], marginRight:"3%"}}></Image></a>
                         
                             <a href="#"><Image src="googleplay.png" alt="googleplay-button"
-                            sx={{ width: ["130px", "180px", "240px"], height: ["45px", "60px", "75px"]}}></Image></a>
+                            sx={{ width: ["120px", "180px", "240px"], height: ["40px", "60px", "75px"]}}></Image></a>
                         
                 </Box>
             

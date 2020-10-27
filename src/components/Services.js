@@ -2,12 +2,12 @@ import React from 'react';
 import './Services.css';
 import './Navbar.css'
 import { Row, Col } from 'antd';
-import PaddingContainer from './utilities/PaddingContainer';
+import ServicesPadding from './utilities/ServicesPadding';
 import { Box, Text, Image } from "theme-ui";
 
 function Services() {
     return (
-        <PaddingContainer className="services-container">
+        <ServicesPadding className="services-container">
             <Text sx={{ fontSize: [28, 32, 40], textAlign: "center" }}>
                 <strong>Our Services</strong>
             </Text>
@@ -65,7 +65,7 @@ function Services() {
 
                 </Row>
             </Box>
-        </PaddingContainer>
+        </ServicesPadding>
     )
 }
 
