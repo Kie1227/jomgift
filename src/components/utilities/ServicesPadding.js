@@ -6,7 +6,7 @@ const ServicesPadding = ({ children, className = "" }) => {
         <Box
             className={`font-family ${className}`}
             sx={{
-                padding: ["1% 4%", "2% 4%", "3% 0%"],
+                padding: ["2% 4%", "2% 2% 2% 0%", "3% 0%"],
                 // mobile, tablet, desktop
                 
             }}>

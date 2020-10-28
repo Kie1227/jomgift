@@ -17,7 +17,8 @@
     border-radius: 20px;
     border-color: #FADBA2;
     box-shadow: 3px 3px rgb(219, 219, 219);
-    margin: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
     /* max-width: 40%; */
     /*width: 100%;*/
     display: inline-block;
@@ -35,4 +36,8 @@
 }
 .services-item p{
     font-size: 1.4em;
+}
+
+.deliveryman img{
+    text-align: center;
 }
