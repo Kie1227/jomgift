@@ -6,7 +6,7 @@ const PaddingContainer = ({ children, className = "" }) => {
         <Box
             className={`font-family ${className}`}
             sx={{
-                padding: ["1% 4%", "2% 4%", "3% 8%"],
+                padding: ["3% 4%", "3% 6%", "3% 8%"],
                 // mobile, tablet, desktop
                 
             }}>

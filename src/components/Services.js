@@ -8,7 +8,7 @@ import { Box, Text, Image } from "theme-ui";
 function Services() {
     return (
         <ServicesPadding className="services-container">
-            <Text sx={{ fontSize: [28, 32, 40], textAlign: "center", paddingBottom:["2%","2%","3%"] }}>
+            <Text sx={{ fontSize: [24, 32, 40], textAlign: "center", paddingBottom:["2%","2%","3%"] }}>
                 <strong>Our Services</strong>
             </Text>
 
@@ -84,9 +84,6 @@ function Services() {
                             </Col>
                         </Row>
                     </Col>
-
-
-
 
                 </Row>
             </Box>
