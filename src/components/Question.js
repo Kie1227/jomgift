@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './Header.css';
 import './Question.css';
 import Collapsible from 'react-collapsible';
 import PaddingContainer from './utilities/PaddingContainer';
@@ -13,7 +13,7 @@ function Question() {
 
     return (
         <PaddingContainer>
-            <Text sx={{ fontSize: [24, 32, 40], textAlign: "center", paddingBottom:["2%","2%","3%"] }}>
+            <Text sx={{ fontSize: [24, 32, 40], textAlign: "center", paddingBottom:["2%","2%","3%"], color:"#403f3d"}}>
                 <strong>Frequently Asked Questions</strong>
             </Text>
 

@@ -1,29 +1,31 @@
 import React from 'react';
-import './Navbar.css';
+import './Header.css';
 import './Orange.css';
 import './Download.css';
-import PaddingContainer from './utilities/PaddingContainer';
 import { Box,Text, Image } from "theme-ui";
 
 
 function Download() {
     return (
-        <PaddingContainer className="orange-container">
-            <Text sx={{fontSize:[20,28,36], textAlign:"center", color:"white"}}><strong>Getting started takes less than 5 minutes</strong></Text>
+    <Box className="orange-container font-family" sx={{position:["fixed","static","static"], bottom:["0","",""], zIndex:["99","",""], padding: ["3% 4%", "3% 6%", "3% 8%"] }}>
+        
+            
+                <Text sx={{fontSize:[20,28,36], textAlign:"center", color:"white"}}><strong>Getting started takes less than 5 minutes</strong></Text>
 
-            
-                <Box sx={{textAlign:"center", marginTop:"2%"}}>
-                    
+                
+                    <Box sx={{textAlign:"center", marginTop:"2%"}}>
                         
-                            <a href="#"><Image src="appstore.png" alt="appstore-button"
-                            sx={{ width: ["120px", "180px", "240px"], height: ["40px", "60px", "75px"], marginRight:"3%"}}></Image></a>
-                        
-                            <a href="#"><Image src="googleplay.png" alt="googleplay-button"
-                            sx={{ width: ["120px", "180px", "240px"], height: ["40px", "60px", "75px"]}}></Image></a>
-                        
-                </Box>
-            
-        </PaddingContainer>
+                            
+                                <a href="#"><Image src="appstore.png" alt="appstore-button"
+                                sx={{ width: ["120px", "180px", "240px"], height: ["40px", "60px", "75px"], marginRight:"3%"}}></Image></a>
+                            
+                                <a href="#"><Image src="googleplay.png" alt="googleplay-button"
+                                sx={{ width: ["120px", "180px", "240px"], height: ["40px", "60px", "75px"]}}></Image></a>
+                            
+                    </Box>
+           
+        
+    </Box>
     )
 }
 

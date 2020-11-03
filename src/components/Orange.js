@@ -1,6 +1,6 @@
 import React from 'react';
 import './Orange.css';
-import './Navbar.css';
+import './Header.css';
 import PaddingContainer from './utilities/PaddingContainer';
 import { Box,Text } from "theme-ui";
 

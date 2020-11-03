@@ -1,9 +1,9 @@
 import React from 'react';
-import './Navbar.css'
+import './Header.css'
 import './Footer.css';
 import { Row, Col } from 'antd';
 import PaddingContainer from './utilities/PaddingContainer';
-import { Box,Text, Image } from "theme-ui";
+import { Box,Text, Image, Link} from "theme-ui";
 
 export default function Footer() {
     return (

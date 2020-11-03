@@ -1,6 +1,6 @@
 import React from 'react';
 import './Services.css';
-import './Navbar.css'
+import './Header.css'
 import { Row, Col } from 'antd';
 import ServicesPadding from './utilities/ServicesPadding';
 import { Box, Text, Image } from "theme-ui";
@@ -8,7 +8,7 @@ import { Box, Text, Image } from "theme-ui";
 function Services() {
     return (
         <ServicesPadding className="services-container">
-            <Text sx={{ fontSize: [24, 32, 40], textAlign: "center", paddingBottom:["2%","2%","3%"] }}>
+            <Text sx={{ fontSize: [24, 32, 40], textAlign: "center", paddingBottom:["2%","2%","3%"], color:"#403f3d"}}>
                 <strong>Our Services</strong>
             </Text>
 

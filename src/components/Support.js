@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './Header.css';
 import './Support.css';
 import PaddingContainer from './utilities/PaddingContainer';
 import { Box, Text, Button } from "theme-ui";
@@ -9,7 +9,7 @@ function Support() {
         <PaddingContainer className="support-container">
 
             <Box sx={{marginY:["2%"]}}>
-            <Text sx={{ fontSize: [28, 32, 40] ,textAlign: "center"}}>
+            <Text sx={{ fontSize: [28, 32, 40] ,textAlign: "center", color:"#403f3d"}}>
                 <strong>Need Help? Looking For Support?</strong>
             </Text>
             
@@ -22,9 +22,9 @@ function Support() {
                             <input type='text' className='support-item' placeholder='Subject'></input>
                             <textarea className='support-textarea' placeholder='Your messages...'></textarea>
 
-                            <Button sx={{textAlign: "center", padding:["5px 70px", "8px 110px", "10px 160px"], 
+                            <Button type='submit' sx={{textAlign: "center", padding:["5px 70px", "8px 110px", "10px 160px"], 
                             bg: "#FD9F13", borderRadius: "10px", fontSize:[20, 22, 26], marginTop:["3%"], border:[0], color:"#fff"
-                            }}>
+                            , cursor:'pointer'}}>
                                 Submit
                             </Button>
 

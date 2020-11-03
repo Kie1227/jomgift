@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face{
+  font-family: 'Noto Serif KR Bold';
+  src: '..\utilities\font\NotoSerifKR-Bold.otf';
+}
+
+@font-face{
+  font-family: 'Noto Serif KR Regular';
+  src: '..\utilities\font\NotoSerifKR-Regular.otf';
+}
+
+body, p, a {
+  font-family: 'Noto Serif KR Regular';
+}
+
+h1, h2, h3, h4, h5, strong {
+  font-family: 'Noto Serif KR Bold';
+}
