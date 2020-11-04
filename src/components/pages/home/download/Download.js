@@ -1,7 +1,7 @@
 import React from 'react';
-import './Header.css';
-import './Orange.css';
-import './Download.css';
+import '../../../Header.css';
+import '../orange/Orange.css';
+import '../download/Download.css';
 import { Box,Text, Image } from "theme-ui";
 
 
@@ -10,17 +10,17 @@ function Download() {
     <Box className="orange-container font-family" sx={{position:["fixed","static","static"], bottom:["0","",""], zIndex:["99","",""], padding: ["3% 4%", "3% 6%", "3% 8%"] }}>
         
             
-                <Text sx={{fontSize:[20,28,36], textAlign:"center", color:"white"}}><strong>Getting started takes less than 5 minutes</strong></Text>
+                <Text sx={{fontSize:[12,28,36], textAlign:"center", color:"white"}}><strong>Getting started takes less than 5 minutes</strong></Text>
 
                 
                     <Box sx={{textAlign:"center", marginTop:"2%"}}>
                         
                             
                                 <a href="#"><Image src="appstore.png" alt="appstore-button"
-                                sx={{ width: ["120px", "180px", "240px"], height: ["40px", "60px", "75px"], marginRight:"3%"}}></Image></a>
+                                sx={{ width: ["90px", "180px", "240px"], height: ["30px", "60px", "75px"], marginRight:"3%"}}></Image></a>
                             
                                 <a href="#"><Image src="googleplay.png" alt="googleplay-button"
-                                sx={{ width: ["120px", "180px", "240px"], height: ["40px", "60px", "75px"]}}></Image></a>
+                                sx={{ width: ["90px", "180px", "240px"], height: ["30px", "60px", "75px"]}}></Image></a>
                             
                     </Box>
            

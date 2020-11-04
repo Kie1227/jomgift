@@ -33,6 +33,7 @@
     transition: all 0.3s ease;
     z-index: 1;
     display: block !important;
+    height: 700px;
 }
 
   .nav-links {
@@ -88,7 +89,9 @@
   display: block !important;
   text-align: left;
   }
-}
+
+  
+} /*   media end */
 
 .sec-nav-links{
   display: none;
@@ -96,3 +99,8 @@
   z-index: 1;
   
 }
+
+
+
+
+

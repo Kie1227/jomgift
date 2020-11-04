@@ -5,6 +5,19 @@
    
 }
 
+.image-padding{
+    padding: 20px 0px;
+   
+}
+
+@media screen and (max-width: 750px) {
+    .image-padding{
+        padding: 20px 0px;
+        width: 200px;
+        height: 390px;
+    }
+    }
+
 /*.services-header{
     text-align: center;
     font-size: 3.0em;

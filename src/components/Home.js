@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from './Header';
-import Main from './Main';
+import Main from './pages/home/landingpage/Main';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Orange from './Orange';
-import Services from './Services';
-import Download from './Download';
-import Question from './Question';
-import Support from './Support';
+import Orange from './pages/home/orange/Orange';
+import Services from './pages/home/services/Services';
+import Download from './pages/home/download/Download';
+import Question from './pages/home/question/Question';
+import Support from './pages/home/support/Support';
 import Footer from './Footer';
-import Products from './Products';
+import Products from './pages/home/product/Products';
 
 
 

@@ -4,11 +4,11 @@ import App from './App';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Products from './components/Products';
-import Question from './components/Question';
-import Support from './components/Support';
+import Products from './components/pages/home/product/Products';
+import Question from './components/pages/home/question/Question';
+import Support from './components/pages/home/support/Support';
 import { BrowserRouter as Router,Route } from 'react-router-dom';
-import Services from './components/Services';
+import Services from './components/pages/home/services/Services';
 
 
 const header = (

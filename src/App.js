@@ -1,11 +1,14 @@
 import React from 'react';
+import { ThemeProvider } from 'theme-ui';
 import './App.css';
-import Home from'./components/Home.js';
-
+import Home from './components/Home.js';
+import { theme } from "./theme"
 function App() {
 
   return (
-    <Home/>
+    <ThemeProvider theme={theme}>
+      <Home />
+    </ThemeProvider>
   );
 }
 

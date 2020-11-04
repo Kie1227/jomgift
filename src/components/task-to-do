@@ -1,0 +1,13 @@
+1. modify variants
+2. move folder hierarchy
+3. integrate api
+
+4.services square padding adjust
+
+/products/index.js
+/products/card/index.js
+
+
+ProductCard = (product) => {
+    return <div>{product.title}</div>
+}
