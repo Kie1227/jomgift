@@ -1,13 +1,18 @@
+
 .item-container{
-    padding-bottom: 1.5%;
+    /* padding-bottom: 1.5%; */
     max-width: 220px;
     margin: 3%;
     display: inline-block;
     /* height: 500px; */
     border-radius: 10px;
-    box-shadow: 2px 2px rgb(218, 218, 218);
+    box-shadow: 2px 2px rgb(231, 231, 231);
     background-color: white;
     
+}
+
+.item-img{
+    width: 220px;
 }
 
 .cardtitle{
@@ -18,12 +23,12 @@
 
 .cardsubtitle{
     font-size: 1.5em;
-    color: #403F3D;
+    color: rgb(64, 63, 61);
 }
 
 .price{
     font-size: 1.5em;
-    color: #FD9F13;
+    color: rgb(253, 159, 19);
 }
 
 .add-cart{
@@ -35,13 +40,108 @@
     padding: 5% 25%;
 }
 
+.nav-products:hover{
+    cursor: pointer;
+    color: #FD9F13;
+}
+
+.product-padding{
+    padding: 20px;
+}
+
+/* .nav-item:active{
+    border-bottom: 2px solid green;
+    color: #FD9F13;
+} */
+
+
 /* Tabet size */
-@media screen and (max-width: 750px) {
-    
+@media screen and (max-width: 991px){
+    .item-container{
+        /* padding-bottom: 1.5%; */
+        max-width: 185px;
+        margin: 2%;
+        display: inline-block;
+        /* height: 500px; */
+        border-radius: 10px;
+        box-shadow: 2px 2px rgb(231, 231, 231);
+        background-color: white;
+        
     }
+
+    .item-img{
+        width: 185px;
+    }
+
+    .cardtitle{
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    
+    .cardsubtitle{
+        font-size: 1.2em;
+    }
+    
+    .price{
+        font-size: 1.2em;
+    }
+    
+    .add-cart{
+        font-size: 1.2em;
+        background-color: #FD9F13;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 5% 25%;
+    }
+
+    .product-padding{
+        padding: 12px;
+    }
+ }/* end tablet size  */
 
 
 /* Phone size */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 480px) {
+    .item-container{
+        /* padding-bottom: 1.5%; */
+        max-width: 45%;
+        margin: 2%;
+        display: inline-block;
+        /* height: 500px; */
+        border-radius: 10px;
+        box-shadow: 2px 2px rgb(231, 231, 231);
+        background-color: white;
+        
+    }.item-img{
+        width: 100%;
+    }
+
+    .cardtitle{
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+    
+    .cardsubtitle{
+        font-size: 0.9em;
+    }
+    
+    .price{
+        font-size: 0.9em;
+    }
+    
+    .add-cart{
+        font-size: 1.1em;
+        background-color: #FD9F13;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 5% 15%;
+        
+    }
+
+    .product-padding{
+        padding: 8px;
+    }
     
     }
