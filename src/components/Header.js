@@ -81,7 +81,7 @@ const Header = () => {
 
               <li><Link to="About" onClick={closeMobileMenu} className='nav-links' onClick={closeMobileMenu}>About</Link>
                 <div><Link to="Services" onClick={closeMobileMenu} className='nav-links sec-nav-links'>Our Services</Link>
-                  <Link to="Products" onClick={closeMobileMenu} className='nav-links sec-nav-links'>Get the App</Link>
+                  <Link to="" onClick={closeMobileMenu} className='nav-links sec-nav-links'>Get the App</Link>
                   <Link to="About" onClick={closeMobileMenu} className='nav-links sec-nav-links'>FAQ</Link></div></li>
 
               <li><Link to="ContactUs" className='nav-links' onClick={closeMobileMenu}>Contact Us</Link></li>

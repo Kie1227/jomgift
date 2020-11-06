@@ -2,9 +2,13 @@ import React from 'react';
 import './Header.css'
 import './Footer.css';
 import { Row, Col } from 'antd';
+import { Link } from "react-router-dom";
 import PaddingContainer from './utilities/PaddingContainer';
-import { Box, Text, Image, Link } from "theme-ui";
+import { Box, Text, Image } from "theme-ui";
 
+const scroll = () => {
+    window.scrollTo(0,0);
+}
 
 export default function Footer() {
     return (
@@ -15,14 +19,14 @@ export default function Footer() {
                         <Box sx={{ marginBottom: ["10%", null, "7%"] }}>
                             <Text sx={{ fontSize: [16, 20, 26], marginBottom: ["3%", "5%", "8%"] }}>Products</Text>
                             <Text sx={{ fontSize: [12, 14, 20], lineHeight: [2] }}>
-                                Bestseller
-                            <br />Promo
-                            <br />Brand Deal
-                            <br />New Arrival
-                            <br />Pastries
-                            <br />Sesame Oil
-                            <br />Drink
-                            <br />Nyoya</Text>
+                            <Link to="Products" className='footer-hover' onClick={scroll}>Bestseller</Link>
+                            <br /><Link to="Products" className='footer-hover' onClick={scroll}>Promo</Link>
+                            <br /><Link to="Products" className='footer-hover' onClick={scroll}>Brand Deal</Link>
+                            <br /><Link to="Products" className='footer-hover' onClick={scroll}>New Arrival</Link>
+                            <br /><Link to="Products" className='footer-hover' onClick={scroll}>Pastries</Link>
+                            <br /><Link to="Products" className='footer-hover' onClick={scroll}>Sesame Oil</Link>
+                            <br /><Link to="Products" className='footer-hover' onClick={scroll}>Drink</Link>
+                            <br /><Link to="Products" className='footer-hover' onClick={scroll}>Nyonya</Link></Text>
                         </Box>
                     </Col>
 
@@ -30,10 +34,10 @@ export default function Footer() {
                         <Box sx={{ marginBottom: ["10%", null, "7%"] }}>
                             <Text sx={{ fontSize: [16, 20, 26], marginBottom: ["3%", "5%", "8%"] }}>About JomGift</Text>
                             <Text sx={{ fontSize: [12, 14, 20], lineHeight: [2] }}>
-                                <Link to="Services" className='footer-hover'>Our Services</Link>
-                                <br />Get The App
-                            <br />FAQ
-                            <br />Contact Us</Text>
+                                <Link to="Services" className='footer-hover' onClick={scroll}>Our Services</Link>
+                                <br /><Link to="" className='footer-hover' onClick={scroll}>Get The App</Link>
+                            <br /><Link to="About" className='footer-hover' onClick={scroll}>FAQ</Link>
+                            <br /><Link to="ContactUs" className='footer-hover' onClick={scroll}>Contact Us</Link></Text>
                         </Box>
                     </Col>
 

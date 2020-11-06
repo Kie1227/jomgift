@@ -43,16 +43,6 @@
     display: table;
   }
 
-  /* .nav-links:hover {
-    background-color: blue;
-    color: blue;
-    border-radius: 0;
-  } 
-
-  .headerUl li:hover{
-    background-color: #444444;
-  }*/
-
   .navbar-logo {
     position: absolute;
     top: 0;

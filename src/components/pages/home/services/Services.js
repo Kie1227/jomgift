@@ -33,7 +33,7 @@ function Services() {
                                         padding:["15px","20px","30px"], width:["90%","","80%"], height:["90%"]}}>
                                     
                                     <Image src="services_logo_1.png" alt="price-tag"
-                                    sx={{ width: ["40px", "80px", "100px"], height: ["40px", "90px", "100px"]}}></Image>
+                                    sx={{ width: ["40px", "70px", "100px"], height: ["40px", "70px", "100px"]}}></Image>
 
                                     <Text sx={{fontSize:[12,20,24], padding:["8px 0px","10px 0px","15px 0px"]}}><strong>Discount System</strong></Text>
                                     <Text sx={{fontSize:[10,18,22]}}>We have a reward system for our customers.</Text>
@@ -47,7 +47,7 @@ function Services() {
                                         padding:["15px","20px","30px"], width:["90%","","80%"], height:["90%"]}}>
                                     
                                     <Image src="services_logo_2.png" alt="price-tag"
-                                    sx={{ width: ["40px", "80px", "100px"], height: ["40px", "90px", "100px"]}}></Image>
+                                    sx={{ width: ["40px", "70px", "100px"], height: ["40px", "70px", "100px"]}}></Image>
 
                                     <Text sx={{fontSize:[12,20,24], padding:["8px 0px","10px 0px","15px 0px"]}}><strong>Express Delivery</strong></Text>
                                     <Text sx={{fontSize:[10,18,22]}}>We will deliver to your doorstep  ASAP.</Text>
@@ -61,7 +61,7 @@ function Services() {
                                         padding:["15px","20px","30px"], width:["90%","","80%"], height:["90%"]}}>
                                     
                                     <Image src="services_logo_3.png" alt="price-tag"
-                                    sx={{ width: ["40px", "80px", "100px"], height: ["40px", "90px", "100px"]}}></Image>
+                                    sx={{ width: ["40px", "70px", "100px"], height: ["40px", "70px", "100px"]}}></Image>
 
                                     <Text sx={{fontSize:[12,20,24], padding:["8px 0px","10px 0px","15px 0px"]}}><strong>30+ Suppliers</strong></Text>
                                     <Text sx={{fontSize:[10,18,22]}}>We have wide variety of more than 30+ suppliers.</Text>
@@ -75,7 +75,7 @@ function Services() {
                                         padding:["15px","20px","30px"], width:["90%","","80%"], height:["90%"]}}>
                                     
                                     <Image src="services_logo_4.png" alt="price-tag"
-                                    sx={{ width: ["40px", "80px", "100px"], height: ["40px", "90px", "100px"]}}></Image>
+                                    sx={{ width: ["40px", "70px", "100px"], height: ["40px", "70px", "100px"]}}></Image>
 
                                     <Text sx={{fontSize:[12,20,24], padding:["8px 0px","10px 0px","15px 0px"]}}><strong>Excellent Quality</strong></Text>
                                     <Text sx={{fontSize:[10,18,22]}}>We have our system to ensure quality product.</Text>

@@ -11,6 +11,14 @@
     border-bottom: 1.5px solid gray;
 }
 
+.footer-hover{
+    color:white;
+  }
+
+  .footer-hover:hover{
+    color: #FD9F13;
+  }
+
 
 
 /*
